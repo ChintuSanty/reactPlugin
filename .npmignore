@@ -1,0 +1,7 @@
+src/
+node_modules/
+rollup.config.js
+tsconfig.json
+.npmignore
+*.test.ts
+*.test.tsx

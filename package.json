@@ -1,0 +1,51 @@
+{
+  "name": "elementor-react-ui",
+  "version": "1.0.0",
+  "description": "A comprehensive React UI component library inspired by Elementor WordPress plugin",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-dts": "^6.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "elementor",
+    "widgets",
+    "plugin"
+  ],
+  "author": "ChintuSanty",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChintuSanty/reactPlugin.git"
+  },
+  "dependencies": {
+    "santycss": "^1.2.0"
+  }
+}
